@@ -1,6 +1,5 @@
 # CICIDS2017
-
-CICIDS2017.ipynb my old work.
+dataset
 
 ## my current work:
 
