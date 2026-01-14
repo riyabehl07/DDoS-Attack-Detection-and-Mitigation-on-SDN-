@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 26 16:35:42 2019
 
-@author: ELİF NUR
-"""
 
 import pandas as pd
 import seaborn as sns
@@ -69,3 +65,4 @@ def extraTreesSelection(X,y,featureList,LabelColumnName,dataset,featureNumber): 
     selectedFeature=featureScoreDataFrame.head(featureNumber)['Özellik'].tolist() + [LabelColumnName]
     featureDataFrame=dataset.loc[:,selectedFeature]
     return featureScoreDataFrame,featureDataFrame
+
